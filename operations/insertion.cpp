@@ -44,7 +44,8 @@ void insertNode(node * &start){
                         save->next=nptr;}
                         break;
 
-            default:break;
+            default:    cout<<endl<<"Wrong Choice!!";
+                        break;
         }
     }
     else{

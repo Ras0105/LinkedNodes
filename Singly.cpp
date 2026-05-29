@@ -60,10 +60,12 @@ int main(){
                     save=start;
                     int num;char c;
                     searchNode(start,ptr,save,num);
+
+                    if(ptr!=nullptr){
                     cout<<endl<<"Press 0 To Display Searched Node's Info (else press anything): "; cin>>c;cin.ignore();
                     if(c=='0')
                         displaynodeinfo(save,ptr,num);
-                    else;
+                    else;}
                     cin.ignore();
                     getchar();
                     break;

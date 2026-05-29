@@ -31,7 +31,9 @@ void searchNode(node * start,node *&ptr,node *&save,int &number){
                     ptr=ptr->next;
                     }
                     break;
-        default: break;
+        default:    cout<<endl<<"Wrong Choice!!";
+                    ptr=nullptr;
+                    break;
         }
     
     cout<<endl;
